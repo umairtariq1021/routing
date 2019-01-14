@@ -5,6 +5,7 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { DepartmentDetailComponent } from './department-detail/department-detail.component';
+import { TestingComponent } from './testing/testing.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { DepartmentDetailComponent } from './department-detail/department-detail
     AppComponent,
     routingComponents,
     PageNotFoundComponent,
-    DepartmentDetailComponent
+    DepartmentDetailComponent,
+    TestingComponent
   ],
   imports: [
     BrowserModule,
